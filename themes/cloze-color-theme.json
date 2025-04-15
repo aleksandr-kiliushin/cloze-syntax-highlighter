@@ -1,0 +1,14 @@
+{
+  "name": "Cloze Theme",
+  "type": "dark",
+  "colors": {},
+  "tokenColors": [
+    {
+      "scope": "cloze.highlight",
+      "settings": {
+        "foreground": "#FFA500",
+        "fontStyle": "bold"
+      }
+    }
+  ]
+}

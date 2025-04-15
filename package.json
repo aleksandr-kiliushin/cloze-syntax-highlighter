@@ -1,0 +1,51 @@
+{
+  "name": "cloze-syntax-highlighter",
+  "displayName": "Cloze Syntax Highlighter",
+  "description": "Highlights cloze deletions like {{c3::trusted website}}",
+  "version": "0.0.1",
+  "publisher": "your-publisher-name",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aleksandr-kiliushin/cloze-syntax-highlighter.git"
+  },
+  "scripts": {
+    "vsce:prepublish": "vsce package"
+  },
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "cloze",
+        "aliases": [
+          "Cloze"
+        ],
+        "extensions": [
+          ".cloze"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "cloze",
+        "scopeName": "source.cloze",
+        "path": "./syntaxes/cloze.tmLanguage.json"
+      }
+    ],
+    "themes": [
+      {
+        "label": "Cloze Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cloze-color-theme.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "vsce": "^2.15.0"
+  }
+}

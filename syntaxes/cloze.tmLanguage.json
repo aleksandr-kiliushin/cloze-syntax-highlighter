@@ -1,0 +1,12 @@
+{
+  "name": "cloze",
+  "scopeName": "source.cloze",
+  "patterns": [
+    {
+      "name": "cloze.highlight",
+      "match": "\\{\\{c\\d+::.*?\\}\\}"
+    }
+  ],
+  "repository": {},
+  "injections": {}
+}
