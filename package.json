@@ -2,7 +2,7 @@
   "name": "cloze-syntax-highlighter",
   "displayName": "Cloze Syntax Highlighter",
   "description": "Highlights cloze deletions like {{c3::some text}} in markdown files.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "aleksandr-kiliushin",
   "repository": {
     "type": "git",
