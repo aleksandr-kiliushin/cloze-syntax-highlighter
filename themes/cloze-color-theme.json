@@ -1,7 +1,13 @@
 {
   "name": "Cloze Theme",
   "type": "light",
-  "colors": {},
+  "colors": {
+    "editor.background": "#FFFFFF",
+    "editor.foreground": "#000000",
+    "editorLineNumber.foreground": "#999999",
+    "editorCursor.foreground": "#333333",
+    "editor.selectionBackground": "#cce3ff"
+  },
   "tokenColors": [
     {
       "scope": "cloze.highlight",
