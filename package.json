@@ -3,7 +3,7 @@
   "displayName": "Cloze Syntax Highlighter",
   "description": "Highlights cloze deletions like {{c3::trusted website}}",
   "version": "0.0.1",
-  "publisher": "your-publisher-name",
+  "publisher": "aleksandr-kiliushin",
   "repository": {
     "type": "git",
     "url": "https://github.com/aleksandr-kiliushin/cloze-syntax-highlighter.git"
